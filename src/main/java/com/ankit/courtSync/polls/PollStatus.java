@@ -1,4 +1,9 @@
 package com.ankit.courtSync.polls;
 
-public class PollStatus {
+public enum PollStatus {
+    CREATING,
+    CREATED,
+    FAILED,
+    EXPIRED
+
 }
